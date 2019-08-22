@@ -4,6 +4,7 @@ Author: Wrappixel
 Email: niravjoshi87@gmail.com
 File: js
 */
+function init_plugins() {
 $(function() {
     "use strict";
     $(function() {
@@ -14,7 +15,7 @@ $(function() {
     });
     // ============================================================== 
     // This is for the top header part and sidebar part
-    // ==============================================================  
+    // ==============================================================
     var set = function() {
         var width = (window.innerWidth > 0) ? window.innerWidth : this.screen.width;
         var topOffset = 0;
@@ -155,3 +156,4 @@ $(function() {
     });
 
 });
+}
